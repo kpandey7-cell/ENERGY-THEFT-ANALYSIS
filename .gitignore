@@ -1,0 +1,23 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Data - do NOT commit raw/processed datasets
+data/raw/
+data/processed/
+
+# Temporary test files
+mqtt_test.py
